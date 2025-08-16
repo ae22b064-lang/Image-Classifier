@@ -1,43 +1,37 @@
-Dog and Cat Image Classifier using a Multi-Layer Perceptron (MLP)
-This project demonstrates the development of a multi-layer perceptron (MLP) neural network to classify images of dogs and cats. It focuses on a foundational approach to image classification using scikit-learn, highlighting key machine learning concepts such as data preprocessing, model architecture evaluation, and performance tuning.
+# Dog vs Cat Image Classifier using Multi-Layer Perceptron (MLP)
 
-Project Highlights
-Model Development: An MLP neural network was designed and implemented from scratch using the MLPClassifier from scikit-learn.
+This project demonstrates the development of a **Multi-Layer Perceptron (MLP)** neural network to classify images of dogs and cats.  
+It adopts a **foundational machine learning approach** using `scikit-learn`, focusing on data preprocessing, model architecture evaluation, and performance tuning.
 
-Architecture Evaluation: The project explores the impact of different network architectures, including the number of hidden layers and neurons, as well as various activation functions like ReLU and Tanh, on model performance.
+---
 
-Data Preprocessing: Implemented techniques such as image flattening to prepare pixel data for the MLP, and feature scaling to standardize pixel values, ensuring robust model training.
+## Project Highlights
+- **Model Development** → Implemented an MLP neural network using `MLPClassifier` from scikit-learn.  
+- **Architecture Evaluation** → Analyzed how varying hidden layers, neuron counts, and activation functions (ReLU, Tanh) affect performance.  
+- **Data Preprocessing** → Applied **image flattening** for pixel-based inputs and **feature scaling** to standardize data.  
+- **Performance Tuning** → Enhanced generalization using **noise augmentation** to make the model more robust on unseen images.  
 
-Performance Tuning: The model's robustness was improved through data augmentation techniques like noise augmentation, which helps the model generalize better to unseen images.
+---
 
-Files in this Repository
-mlp_classifier.py: The main Python script containing the entire project workflow.
+## Repository Structure
+- `mlp_classifier.py` → Main script containing preprocessing, model training, and evaluation.  
+- `requirements.txt` → List of dependencies.  
+- `README.md` → Documentation and usage instructions.  
 
-requirements.txt: A list of all necessary Python libraries.
+---
 
-README.md: This file, providing an overview of the project.
+## How to Run the Project
 
-How to Run the Project
-Clone the Repository:
-
+### Clone the Repository
+```bash
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
-
-Install Required Libraries:
-
+```
+### Install Dependencies
+```
 pip install -r requirements.txt
-
-Run the Python Script:
-
+```
+### Run the Script
+```
 python mlp_classifier.py
-
-Requirements
-The project requires the following Python libraries, which are listed in requirements.txt:
-
-numpy
-
-scikit-learn
-
-matplotlib
-
-Pillow (PIL)
+```
